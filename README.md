@@ -34,8 +34,9 @@ conda install -c conda-forge pyspark=4.0.1 openjdk=21 jupyter notebook
 ```
 jupyter notebook
 ```
-を起動し、表示されたリンク"http://localhost:8888/tree?token=..."を開きます。
+を起動し、表示されたリンク"http://localhost:8888/tree?token=..." を開き、
 e01_basics.ipynbから順番に実行してみてください。
 ## E01 Basics
 基本的な使い方の説明
 ## E02 Energy calibration
+検出器のADCデータをエネルギーに変換する例
