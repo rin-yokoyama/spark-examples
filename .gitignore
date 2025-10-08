@@ -1,5 +1,9 @@
 /*
 !/data/
+!/hist/
 !.gitignore
+!setup.sh
+!ClvCalib.csv
 !README.md
 !*.ipynb
+*.pyc
