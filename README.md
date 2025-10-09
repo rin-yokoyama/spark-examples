@@ -40,3 +40,7 @@ e01_basics.ipynbから順番に実行してみてください。
 基本的な使い方の説明
 ## E02 Energy calibration
 検出器のADCデータをエネルギーに変換する例
+## E03 Histograming
+ヒストグラムの作成
+## E04 Event building
+行にまたがるイベントビルドの説明。γ-γ解析の例。
