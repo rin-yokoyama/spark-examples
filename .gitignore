@@ -1,6 +1,7 @@
 /*
 !/data/
 !/hist/
+!/scala_build/
 !.gitignore
 !setup.sh
 !ClvCalib.csv
