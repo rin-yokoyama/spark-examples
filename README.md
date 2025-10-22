@@ -22,11 +22,9 @@ auto setup で yes を入力すると.bashrcに設定が書き込まれるので
 
 - pyspark環境のインストール
 
-新しくspark用にcondaの環境を作る。今回は以下の通り。
+新しくspark用にcondaの環境を作る。このリポジトリには、必要な環境をenvironment.yamlにまとめているので、以下を実行するだけ。
 ```
-conda create -n spark python=3.12
-conda activate spark
-conda install -c conda-forge pyspark=4.0.1 openjdk=21 jupyter notebook
+conda env create -f environment.yaml
 ```
 `pyspark`で起動するようになっていればOK.
 

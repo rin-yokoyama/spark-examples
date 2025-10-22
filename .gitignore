@@ -8,4 +8,5 @@
 !ClvCalib.csv
 !README.md
 !*.ipynb
+!environment.yaml
 *.pyc
