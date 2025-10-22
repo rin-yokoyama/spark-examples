@@ -25,9 +25,14 @@ auto setup で yes を入力すると.bashrcに設定が書き込まれるので
 新しくspark用にcondaの環境を作る。このリポジトリには、必要な環境をenvironment.yamlにまとめているので、以下を実行するだけ。
 ```
 conda env create -f environment.yaml
+conda activate spark-examples
 ```
-`pyspark`で起動するようになっていればOK.
-
+`pyspark`で起動するようになっていればOK. <br>
+また、activateした際に環境変数が設定されるようにする。
+```
+echo source $PWD/setup.sh >> $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
+```
+これでconda activate した際に環境変数(PYTHONPATH)が今のディレクトリに設定される。
 ## Example notebooks
 ```
 jupyter notebook
