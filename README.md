@@ -33,6 +33,10 @@ conda activate spark-examples
 echo source $PWD/setup.sh >> $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 ```
 これでconda activate した際に環境変数(PYTHONPATH)が今のディレクトリに設定される。
+
+environment.yaml には`nodefaults`オプションがついているが、anacondaのデフォルトチャンネルを一切使用したくない場合、
+`conda config --remove channels defaults --system`としておくと安心。
+(AnacondaのToSへの同意を避けたい場合)
 ## Example notebooks
 ```
 jupyter notebook
