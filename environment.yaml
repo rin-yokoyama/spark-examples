@@ -2,6 +2,7 @@ name: spark-examples
 channels:
   - nodefaults
   - conda-forge
+  - nodefaults
 dependencies:
   - python=3.12
   - pyspark=4.0.1
